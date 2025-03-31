@@ -1,6 +1,55 @@
 body {
-    background-color: black;
+    background: #c0c6dc;
+    width: 1280px;
+    height: 1286px;
+    font-family: var(--font-family);
 }
 .prof {
-    --font-family: "Montserrat", sans-serif; background-color: white;
+    --font-family: "Montserrat", sans-serif;
+    background-color: white;
+    border-radius: 40px;
+    width: 1200px;
+    height: 1206px;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftm {
+    border-radius: 40px;
+    width: 370px;
+    height: 1206px;
+    background: rgba(224, 235, 254, 0.7);
+}
+
+.leftm div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0 20px;
+}
+
+.leftm div p {
+    background: #e0dcff;
+    color: #6a4fcb;
+    border-radius: 15px;
+    padding: 5px 12px;
+    margin: 0;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.inter {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 22px;
+    color: #1f2937;
+}
+.mm {
+    width: 747px;
+    height: 752px;
+    padding: 20px;
 }
