@@ -3,16 +3,35 @@ body {
     width: 1280px;
     height: 1286px;
     font-family: var(--font-family);
+    --font-family: "Montserrat", sans-serif;
 }
 .prof {
-    --font-family: "Montserrat", sans-serif;
     background-color: white;
     border-radius: 40px;
     width: 1200px;
     height: 1206px;
     margin: 0 auto;
 }
-
+.prof button{
+    font-weight: 700;
+    font-size: 16px;
+    color: #7549ea;
+    border: 1px solid #7549ea;
+    border-radius: 16px;
+    padding: 14px 16px;
+    width: 290px;
+    height: 48px;
+}
+.prof button:first-of-type {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    background: #7549ea;
+}
+.prof img:nth-of-type(2){
+    width: 290px;
+    height: 64px;
+}
 main {
     display: flex;
     flex-direction: row;
@@ -28,22 +47,24 @@ main {
 .leftm div {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    padding: 0 20px;
+    gap: 8px;
 }
 
 .leftm div p {
     background: #e0dcff;
     color: #6a4fcb;
-    border-radius: 15px;
-    padding: 5px 12px;
+    border-radius: 6px;
+    padding: 0px 8px;
+    height: 24px;
     margin: 0;
     font-size: 14px;
     display: inline-block;
 }
+.sdvig {
+    margin: 40px;
+}
 
 .inter {
-    font-family: var(--font-family);
     font-weight: 700;
     font-size: 22px;
     color: #1f2937;
@@ -52,4 +73,37 @@ main {
     width: 747px;
     height: 752px;
     padding: 20px;
+}
+.mm p{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    color: #1f2937;
+}
+.mm li {
+    font-weight: 400;
+    color: #4a5161;
+}
+.mm h3 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 171%;
+    color: #1f2937;
+}
+.wb {
+    line-height: 122%;
+    color: #1f2937;
+    font-weight: 700;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+.wbb {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 122%;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    color: #1f2937;
 }
