@@ -2,8 +2,7 @@ body {
     background: #c0c6dc;
     width: 1280px;
     height: 1286px;
-    font-family: var(--font-family);
-    --font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 .prof {
     background-color: white;
@@ -73,12 +72,32 @@ main {
     width: 747px;
     height: 752px;
     padding: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #4a5161;
 }
 .mm p{
     font-weight: 700;
     font-size: 14px;
     line-height: 150%;
     color: #1f2937;
+}
+.mm p * {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #4a5161;
+}
+.mm a {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 171%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #7549ea;
 }
 .mm li {
     font-weight: 400;
@@ -92,7 +111,7 @@ main {
     color: #1f2937;
 }
 .wb {
-    line-height: 122%;
+    line-height: 100%;
     color: #1f2937;
     font-weight: 700;
     font-size: 22px;
